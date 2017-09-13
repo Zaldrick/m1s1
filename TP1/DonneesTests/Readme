@@ -1,0 +1,22 @@
+Chaque fichier de données ImmXXX contient
+XXX: le nombre d'immeubles sur la première ligne
+XXX lignes contenant chacune trois entiers >0, G, H, D avec  0<G<=210, 0<H<=120,  G<D<=G+40, qui définissent un immeuble
+
+ le fichier ResXXX contient une représentation de la solution sous forme de ligne de toits (premier format proposé dans le TP).
+ 
+Exemple:
+
+Imm4
+
+ 4
+10 6 15
+10 6 18
+10 6 15
+10 6 20
+ 
+Res4
+
+(10,0)
+(10,6)
+(20,6)
+(20,0)
